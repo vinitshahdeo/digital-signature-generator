@@ -18,11 +18,11 @@ A modern, production-ready React + TypeScript application for creating beautiful
 **Typed Mode:**
 - 20+ premium handwriting fonts (Sacramento, Great Vibes, Dancing Script, Caveat, Allura, and more)
 - Font size, weight, letter spacing, line height controls
-- Slant/italic adjustment for cursive signatures
+- Slant/italic adjustment for cursive signatures (default: 0° - upright)
 - Ink color with quick swatches (black, blue, royal blue, charcoal)
 - Opacity and stroke texture for realistic ink effects
 - Flourish options: underline, double underline, swoosh decorations
-- Alignment (left/center/right) and rotation
+- Alignment (default: center) and rotation (default: 0°)
 - **Monogram Mode**: Create elegant initials with circular, shield, or ribbon frames
 
 **Freehand Mode:**

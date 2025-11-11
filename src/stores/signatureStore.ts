@@ -210,7 +210,7 @@ const BUILTIN_PRESETS: PresetData[] = [
     description: 'Sophisticated and refined',
     typed: {
       fontFamily: 'Allura',
-      fontSize: 80,
+      fontSize: 60,
       color: '#4a5568',
       flourish: 'swoosh-right',
       flourishSize: 3,
@@ -224,7 +224,7 @@ const BUILTIN_PRESETS: PresetData[] = [
     description: 'Strong and confident',
     typed: {
       fontFamily: 'Pacifico',
-      fontSize: 68,
+      fontSize: 60,
       fontWeight: 600,
       color: '#000000',
       flourish: 'double-underline',
