@@ -1,14 +1,12 @@
 import React, { useEffect, useRef } from 'react';
-import { Text, Group, Transformer } from 'react-konva';
+import { Text, Group } from 'react-konva';
 import { useSignatureStore } from '@/stores/signatureStore';
-import { createFlourish } from '@/utils/effects';
 import Konva from 'konva';
 
 const TypedSignatureLayer: React.FC = () => {
   const { typed, canvas } = useSignatureStore();
   const textRef = useRef<Konva.Text>(null);
   const groupRef = useRef<Konva.Group>(null);
-  const flourishRef = useRef<Konva.Shape | Konva.Group | null>(null);
 
   const displayText = typed.monogramMode ? typed.initials : typed.fullName;
 

@@ -286,7 +286,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 **Vinit Shahdeo**
 - GitHub: [@vinitshahdeo](https://github.com/vinitshahdeo)
-- Twitter: [@vinitshahdeo](https://twitter.com/vinitshahdeo)
+- Twitter: [@vinitshahdeo](https://twitter.com/vinit_shahdeo)
 
 ---
 

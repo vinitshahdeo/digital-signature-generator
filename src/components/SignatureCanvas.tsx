@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from 'react';
+import React, { useRef } from 'react';
 import { Stage, Layer } from 'react-konva';
 import { useSignatureStore } from '@/stores/signatureStore';
 import TypedSignatureLayer from './TypedSignatureLayer';

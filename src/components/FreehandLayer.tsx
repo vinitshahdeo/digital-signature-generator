@@ -1,7 +1,6 @@
 import React, { useRef, useState } from 'react';
 import { Line, Group, Rect } from 'react-konva';
 import { useSignatureStore } from '@/stores/signatureStore';
-import Konva from 'konva';
 import { KonvaEventObject } from 'konva/lib/Node';
 
 const FreehandLayer: React.FC = () => {
@@ -29,7 +28,6 @@ const FreehandLayer: React.FC = () => {
     if (!point || !lastPoint.current) return;
 
     const now = Date.now();
-    const timeDelta = now - lastTime.current;
     const distance = Math.sqrt(
       Math.pow(point.x - lastPoint.current.x, 2) +
         Math.pow(point.y - lastPoint.current.y, 2)
@@ -83,7 +81,7 @@ const FreehandLayer: React.FC = () => {
       />
 
       {/* Rendered lines */}
-      {lines.map((line, i) => (
+      {lines.map((line: { points: number[]; color: string; width: number; opacity: number }, i: number) => (
         <Line
           key={i}
           points={line.points}

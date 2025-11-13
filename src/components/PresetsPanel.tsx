@@ -1,5 +1,5 @@
 import React from 'react';
-import { useSignatureStore } from '@/stores/signatureStore';
+import { useSignatureStore, PresetData, HistoryItem } from '@/stores/signatureStore';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from './ui/card';
 import { Button } from './ui/button';
 import { Sparkles, Clock } from 'lucide-react';
@@ -20,7 +20,7 @@ const PresetsPanel: React.FC = () => {
           <CardDescription>Quick start with curated styles</CardDescription>
         </CardHeader>
         <CardContent className="space-y-2">
-          {presets.map((preset, index) => (
+          {presets.map((preset: PresetData, index: number) => (
             <motion.div
               key={preset.id}
               initial={{ opacity: 0, x: 20 }}
@@ -54,7 +54,7 @@ const PresetsPanel: React.FC = () => {
           </CardHeader>
           <CardContent className="space-y-2">
             <div className="grid grid-cols-2 gap-2">
-              {history.slice(0, 6).map((item) => (
+              {history.slice(0, 6).map((item: HistoryItem) => (
                 <motion.div
                   key={item.id}
                   whileHover={{ scale: 1.05 }}

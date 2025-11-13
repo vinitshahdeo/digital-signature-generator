@@ -116,8 +116,18 @@ export interface SignatureStore {
   clearLines: () => void;
   undoLine: () => void;
   redoLine: () => void;
-  undoHistory: typeof useSignatureStore.getState.lines[];
-  redoHistory: typeof useSignatureStore.getState.lines[];
+  undoHistory: Array<{
+    points: number[];
+    color: string;
+    width: number;
+    opacity: number;
+  }>;
+  redoHistory: Array<{
+    points: number[];
+    color: string;
+    width: number;
+    opacity: number;
+  }>;
 
   // Theme
   theme: 'light' | 'dark';
@@ -263,27 +273,27 @@ const BUILTIN_PRESETS: PresetData[] = [
 export const useSignatureStore = create<SignatureStore>()(
   persist(
     (set, get) => ({
-      mode: 'typed',
-      setMode: (mode) => set({ mode }),
+      mode: 'typed' as SignatureMode,
+      setMode: (mode: SignatureMode) => set({ mode }),
 
       typed: DEFAULT_TYPED_STATE,
-      updateTyped: (updates) =>
+      updateTyped: (updates: Partial<TypedSignatureState>) =>
         set((state) => ({ typed: { ...state.typed, ...updates } })),
 
       freehand: DEFAULT_FREEHAND_STATE,
-      updateFreehand: (updates) =>
+      updateFreehand: (updates: Partial<FreehandState>) =>
         set((state) => ({ freehand: { ...state.freehand, ...updates } })),
 
       canvas: DEFAULT_CANVAS_STATE,
-      updateCanvas: (updates) =>
+      updateCanvas: (updates: Partial<CanvasState>) =>
         set((state) => ({ canvas: { ...state.canvas, ...updates } })),
 
       export: DEFAULT_EXPORT_STATE,
-      updateExport: (updates) =>
+      updateExport: (updates: Partial<ExportState>) =>
         set((state) => ({ export: { ...state.export, ...updates } })),
 
       presets: BUILTIN_PRESETS,
-      addPreset: (preset) =>
+      addPreset: (preset: Omit<PresetData, 'id' | 'timestamp'>) =>
         set((state) => ({
           presets: [
             ...state.presets,
@@ -294,11 +304,11 @@ export const useSignatureStore = create<SignatureStore>()(
             },
           ],
         })),
-      removePreset: (id) =>
+      removePreset: (id: string) =>
         set((state) => ({
           presets: state.presets.filter((p) => p.id !== id),
         })),
-      applyPreset: (id) => {
+      applyPreset: (id: string) => {
         const preset = get().presets.find((p) => p.id === id);
         if (preset?.typed) {
           set((state) => ({
@@ -308,7 +318,7 @@ export const useSignatureStore = create<SignatureStore>()(
       },
 
       history: [],
-      addToHistory: (item) =>
+      addToHistory: (item: Omit<HistoryItem, 'id' | 'timestamp'>) =>
         set((state) => ({
           history: [
             {
@@ -320,13 +330,13 @@ export const useSignatureStore = create<SignatureStore>()(
           ],
         })),
       clearHistory: () => set({ history: [] }),
-      restoreFromHistory: (id) => {
+      restoreFromHistory: (id: string) => {
         // This would require storing full state snapshots
         console.log('Restore from history:', id);
       },
 
       lines: [],
-      addLine: (line) =>
+      addLine: (line: { points: number[]; color: string; width: number; opacity: number }) =>
         set((state) => ({
           lines: [...state.lines, line],
           undoHistory: [...state.lines],
@@ -360,10 +370,10 @@ export const useSignatureStore = create<SignatureStore>()(
       undoHistory: [],
       redoHistory: [],
 
-      theme: 'dark',
+      theme: 'dark' as 'light' | 'dark',
       toggleTheme: () =>
         set((state) => ({
-          theme: state.theme === 'light' ? 'dark' : 'light',
+          theme: state.theme === 'light' ? ('dark' as const) : ('light' as const),
         })),
 
       reset: () =>

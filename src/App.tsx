@@ -7,7 +7,7 @@ import PresetsPanel from './components/PresetsPanel';
 import ExportDialog from './components/ExportDialog';
 import { Button } from './components/ui/button';
 import { TooltipProvider } from './components/ui/tooltip';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from './components/ui/tabs';
+import { Tabs, TabsList, TabsTrigger } from './components/ui/tabs';
 import Konva from 'konva';
 import { motion } from 'framer-motion';
 
@@ -180,9 +180,9 @@ function App() {
                   className="flex items-center gap-2"
                 >
                   <span className="text-lg">✨</span>
-                  <span>vibe-coded by</span>
+                  <span>Vibe-coded by</span>
                   <a
-                    href="https://github.com/vinitshahdeo"
+                    href="https://vinitshahdeo.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="font-semibold text-foreground hover:text-primary transition-colors"
@@ -217,7 +217,7 @@ function App() {
                 </motion.a>
 
                 <motion.a
-                  href="https://twitter.com/vinitshahdeo"
+                  href="https://x.com/vinit_shahdeo"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.05 }}

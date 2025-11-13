@@ -1,6 +1,7 @@
 {
   "name": "digital-signature-generator",
   "private": true,
+  "description": "Digital Signature Generator for free",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
