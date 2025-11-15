@@ -1,7 +1,5 @@
-![](./public/logo.png)
-
 <p align="center">
-<img src="./public/logo.png" height="100px" width="100px">
+<img src="./public/logo.png" height="150px" width="150px">
 </p>
 
 <h1 align="center">Digital Signature Generator</h1>
@@ -17,16 +15,15 @@
 ```javascript
 // That's it — keep it simple
 const workflow = {
-  sign: '✍️',
-  tweak: '🎨', 
-  export: '📥'
+  sign: "✍️",
+  tweak: "🎨",
+  export: "📥",
 };
 
-Object.values(workflow).join(' → '); // ✍️ → 🎨 → 📥
+Object.values(workflow).join(" → "); // ✍️ → 🎨 → 📥
 ```
 
 A modern, production-ready React + TypeScript application for creating beautiful digital signatures with full customization options. Perfect for personalizing documents, emails, and digital artwork.
-
 
 ## ✨ What it does
 
@@ -39,6 +36,7 @@ A modern, production-ready React + TypeScript application for creating beautiful
 ## 🎯 Features
 
 Supports Dual Signature Modes:
+
 - **Typed Signatures**: Type your name and customize with 20+ handwriting fonts
 - **Freehand Drawing**: Draw signatures naturally with pressure-sensitive pen simulation
 
@@ -75,34 +73,32 @@ npm run build
 npm run preview
 ```
 
-
 ## 🎨 Included Fonts
 
 The app includes 20 beautiful handwriting fonts:
 
-| # | Font Name | Style Description |
-|---|-----------|-------------------|
-| 1 | **Sacramento** | Elegant cursive |
-| 2 | **Great Vibes** | Sophisticated script |
-| 3 | **Dancing Script** | Lively and friendly |
-| 4 | **Caveat** | Handwritten casual |
-| 5 | **Allura** | Romantic calligraphy |
-| 6 | **Satisfy** | Brushed script |
-| 7 | **Pacifico** | Surf-inspired bold |
-| 8 | **Homemade Apple** | Authentic handwriting |
-| 9 | **Shadows Into Light** | Playful marker style |
-| 10 | **Cookie** | Sweet cursive |
-| 11 | **Alex Brush** | Classic brush script |
-| 12 | **Amatic SC** | Hand-drawn bold |
-| 13 | **Indie Flower** | Quirky handwriting |
-| 14 | **Kaushan Script** | Energetic brush |
-| 15 | **La Belle Aurore** | Vintage handwriting |
-| 16 | **Marck Script** | Formal calligraphy |
-| 17 | **Mrs Saint Delafield** | Copperplate script |
-| 18 | **Pinyon Script** | Delicate flourishes |
-| 19 | **Tangerine** | Feminine cursive |
-| 20 | **Yellowtail** | Smooth brush script |
-
+| #   | Font Name               | Style Description     |
+| --- | ----------------------- | --------------------- |
+| 1   | **Sacramento**          | Elegant cursive       |
+| 2   | **Great Vibes**         | Sophisticated script  |
+| 3   | **Dancing Script**      | Lively and friendly   |
+| 4   | **Caveat**              | Handwritten casual    |
+| 5   | **Allura**              | Romantic calligraphy  |
+| 6   | **Satisfy**             | Brushed script        |
+| 7   | **Pacifico**            | Surf-inspired bold    |
+| 8   | **Homemade Apple**      | Authentic handwriting |
+| 9   | **Shadows Into Light**  | Playful marker style  |
+| 10  | **Cookie**              | Sweet cursive         |
+| 11  | **Alex Brush**          | Classic brush script  |
+| 12  | **Amatic SC**           | Hand-drawn bold       |
+| 13  | **Indie Flower**        | Quirky handwriting    |
+| 14  | **Kaushan Script**      | Energetic brush       |
+| 15  | **La Belle Aurore**     | Vintage handwriting   |
+| 16  | **Marck Script**        | Formal calligraphy    |
+| 17  | **Mrs Saint Delafield** | Copperplate script    |
+| 18  | **Pinyon Script**       | Delicate flourishes   |
+| 19  | **Tangerine**           | Feminine cursive      |
+| 20  | **Yellowtail**          | Smooth brush script   |
 
 ## ⚖️ Legal Notice
 
