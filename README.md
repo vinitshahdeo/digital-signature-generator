@@ -5,7 +5,7 @@
 <h1 align="center">Digital Signature Generator</h1>
 
 <p align="center"><strong>Create clean, realistic digital signatures and export them as transparent PNGs.</strong></p>
-<p align="center">[SEE LIVE](https://digitalsignaturegenerator.netlify.app/)</p>
+<p align="center"><a href="https://digitalsignaturegenerator.netlify.app">See Live</a></p>
 <p align="center">
   <img src="https://img.shields.io/badge/React-18.2-blue" alt="React">
   <img src="https://img.shields.io/badge/TypeScript-5.3-blue" alt="TypeScript">
@@ -33,6 +33,7 @@ A modern, production-ready React + TypeScript application for creating beautiful
 - Export as transparent image for documents and emails
 
 **That's it — keep it simple, sign, tweak, export. ✍️**
+> [See Live.](https://digitalsignaturegenerator.netlify.app/)
 
 ## 🎯 Features
 
