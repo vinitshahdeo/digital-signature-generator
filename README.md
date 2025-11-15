@@ -1,8 +1,8 @@
-# Digital Signature Generator
-
-> **Create clean, realistic digital signatures and export them as transparent PNGs.**
-
 ![](./public/og-image.png)
+
+<h1 align="center">Digital Signature Generator</h1>
+
+<p align="center"><strong>Create clean, realistic digital signatures and export them as transparent PNGs.<strong></p>
 
 A modern, production-ready React + TypeScript application for creating beautiful digital signatures with full customization options. Perfect for personalizing documents, emails, and digital artwork.
 
