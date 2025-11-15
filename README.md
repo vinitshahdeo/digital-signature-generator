@@ -88,9 +88,9 @@ The app includes 20 beautiful handwriting fonts:
 
 ## ⚖️ Legal Notice
 
-**Important**: Signatures created with this tool are for **personalization and creative purposes only**. They are **NOT legally binding** and should not be used as a substitute for handwritten signatures on legal documents, contracts, or official forms.
-
-For legally binding electronic signatures, use certified e-signature services that comply with regulations like eIDAS, ESIGN, or UETA.
+> [!IMPORTANT]
+> Signatures created with this tool are for **personalization and creative purposes only**. They are **NOT legally binding** and should not be used as a substitute for handwritten signatures on legal documents, contracts, or official forms.
+> For legally binding electronic signatures, use certified e-signature services that comply with regulations like eIDAS, ESIGN, or UETA.
 
 ## 🤝 Contributing
 
