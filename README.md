@@ -30,7 +30,7 @@ Supports Dual Signature Modes:
 
 ### Prerequisites
 
-Node.js 18+ and npm/yarn/pnpm
+Node.js 18+ and `npm` / `yarn` / `pnpm`
 
 ### Installation
 
@@ -120,6 +120,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 </p>
 <p align="center">
   <a href="https://github.com/vinitshahdeo?tab=followers">
-    <img src="https://img.shields.io/github/followers/vinitshahdeo?label=Follow&style=social" alt="GitHub followers">
+    <img src="https://img.shields.io/github/followers/vinitshahdeo?label=Follow%20@vinitshahdeo&style=social" alt="GitHub followers">
   </a>
 </p>
