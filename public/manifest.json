@@ -1,6 +1,6 @@
 {
   "name": "Digital Signature Generator",
-  "short_name": "Signature Gen",
+  "short_name": "DigiSign",
   "description": "Create beautiful, realistic digital signatures with 20+ handwriting fonts. Export as transparent PNG, SVG, or PDF.",
   "start_url": "/",
   "display": "standalone",
