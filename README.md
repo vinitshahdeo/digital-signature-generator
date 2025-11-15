@@ -2,20 +2,23 @@
 
 <h1 align="center">Digital Signature Generator</h1>
 
-<p align="center"><strong>Create clean, realistic digital signatures and export them as transparent PNGs.<strong></p>
+<p align="center"><strong>Create clean, realistic digital signatures and export them as transparent PNGs.</strong></p>
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18.2-blue" alt="React">
+  <img src="https://img.shields.io/badge/TypeScript-5.3-blue" alt="TypeScript">
+  <img src="https://img.shields.io/badge/TailwindCSS-3.4-38bdf8" alt="TailwindCSS">
+  <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
+</p>
 
 A modern, production-ready React + TypeScript application for creating beautiful digital signatures with full customization options. Perfect for personalizing documents, emails, and digital artwork.
-
-![React](https://img.shields.io/badge/React-18.2-blue)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4-38bdf8)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 ## What it does
 
 - Type or draw your signature
 - Tweak basic styling (font, size, color)
 - Export as transparent image for documents and emails
+
+**That’s it — keep it simple, sign, tweak, export. ✍️**
 
 ## Features
 
