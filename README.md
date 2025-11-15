@@ -12,15 +12,15 @@
 
 A modern, production-ready React + TypeScript application for creating beautiful digital signatures with full customization options. Perfect for personalizing documents, emails, and digital artwork.
 
-## What it does
+## ✨ What it does
 
 - Type or draw your signature
 - Tweak basic styling (font, size, color)
 - Export as transparent image for documents and emails
 
-**That’s it — keep it simple, sign, tweak, export. ✍️**
+**That's it — keep it simple, sign, tweak, export. ✍️**
 
-## Features
+## 🎯 Features
 
 Supports Dual Signature Modes:
 - **Typed Signatures**: Type your name and customize with 20+ handwriting fonts
@@ -28,11 +28,11 @@ Supports Dual Signature Modes:
 
 ## 🚀 Getting Started
 
-### Prerequisites
+### 📋 Prerequisites
 
 Node.js 18+ and `npm` / `yarn` / `pnpm`
 
-### Installation
+### 📦 Installation
 
 ```bash
 # Clone the repository
@@ -46,10 +46,10 @@ npm install
 npm run dev
 
 # Open http://localhost:5173 in your browser
-# That’s it — keep it simple, sign, tweak, export. ✍️
+# That's it — keep it simple, sign, tweak, export. ✍️
 ```
 
-### Build for Production
+### 🏗️ Build for Production
 
 ```bash
 # Create optimized production build
