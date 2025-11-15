@@ -7,7 +7,7 @@ import PresetsPanel from './components/PresetsPanel';
 import ExportDialog from './components/ExportDialog';
 import { Button } from './components/ui/button';
 import { TooltipProvider } from './components/ui/tooltip';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from './components/ui/tabs';
+import { Tabs, TabsList, TabsTrigger } from './components/ui/tabs';
 import Konva from 'konva';
 import { motion } from 'framer-motion';
 
