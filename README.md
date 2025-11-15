@@ -64,26 +64,28 @@ npm run preview
 
 The app includes 20 beautiful handwriting fonts:
 
-1. **Sacramento** - Elegant cursive
-2. **Great Vibes** - Sophisticated script
-3. **Dancing Script** - Lively and friendly
-4. **Caveat** - Handwritten casual
-5. **Allura** - Romantic calligraphy
-6. **Satisfy** - Brushed script
-7. **Pacifico** - Surf-inspired bold
-8. **Homemade Apple** - Authentic handwriting
-9. **Shadows Into Light** - Playful marker style
-10. **Cookie** - Sweet cursive
-11. **Alex Brush** - Classic brush script
-12. **Amatic SC** - Hand-drawn bold
-13. **Indie Flower** - Quirky handwriting
-14. **Kaushan Script** - Energetic brush
-15. **La Belle Aurore** - Vintage handwriting
-16. **Marck Script** - Formal calligraphy
-17. **Mrs Saint Delafield** - Copperplate script
-18. **Pinyon Script** - Delicate flourishes
-19. **Tangerine** - Feminine cursive
-20. **Yellowtail** - Smooth brush script
+| # | Font Name | Style Description |
+|---|-----------|-------------------|
+| 1 | **Sacramento** | Elegant cursive |
+| 2 | **Great Vibes** | Sophisticated script |
+| 3 | **Dancing Script** | Lively and friendly |
+| 4 | **Caveat** | Handwritten casual |
+| 5 | **Allura** | Romantic calligraphy |
+| 6 | **Satisfy** | Brushed script |
+| 7 | **Pacifico** | Surf-inspired bold |
+| 8 | **Homemade Apple** | Authentic handwriting |
+| 9 | **Shadows Into Light** | Playful marker style |
+| 10 | **Cookie** | Sweet cursive |
+| 11 | **Alex Brush** | Classic brush script |
+| 12 | **Amatic SC** | Hand-drawn bold |
+| 13 | **Indie Flower** | Quirky handwriting |
+| 14 | **Kaushan Script** | Energetic brush |
+| 15 | **La Belle Aurore** | Vintage handwriting |
+| 16 | **Marck Script** | Formal calligraphy |
+| 17 | **Mrs Saint Delafield** | Copperplate script |
+| 18 | **Pinyon Script** | Delicate flourishes |
+| 19 | **Tangerine** | Feminine cursive |
+| 20 | **Yellowtail** | Smooth brush script |
 
 
 ## ⚖️ Legal Notice
