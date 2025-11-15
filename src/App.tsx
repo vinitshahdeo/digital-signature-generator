@@ -65,58 +65,59 @@ function App() {
       <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 dark:from-slate-950 dark:to-slate-900">
         {/* Header */}
         <header className="glass-effect border-b sticky top-0 z-50">
-          <div className="container mx-auto px-4 py-4">
-            <div className="flex items-center justify-between">
-              <div className="flex items-center gap-3">
+          <div className="container mx-auto px-2 sm:px-4 py-3 sm:py-4">
+            <div className="flex items-center justify-between gap-2">
+              <div className="flex items-center gap-2 sm:gap-3 min-w-0">
                 <motion.div
                   initial={{ rotate: 0 }}
                   animate={{ rotate: 360 }}
                   transition={{ duration: 20, repeat: Infinity, ease: 'linear' }}
-                  className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center"
+                  className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center flex-shrink-0"
                 >
-                  <Pen className="w-5 h-5 text-white" />
+                  <Pen className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
                 </motion.div>
-                <div>
-                  <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                    Digital Signature Generator
+                <div className="min-w-0">
+                  <h1 className="text-base sm:text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent truncate">
+                    <span className="hidden sm:inline">Digital Signature Generator</span>
+                    <span className="sm:hidden">DigiSign</span>
                   </h1>
-                  <p className="text-sm text-muted-foreground">Create transparent signature PNGs</p>
+                  <p className="text-xs sm:text-sm text-muted-foreground hidden sm:block">Create transparent signature PNGs</p>
                 </div>
               </div>
 
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-1 sm:gap-2 flex-shrink-0">
                 <Tabs value={mode} onValueChange={(v) => setMode(v as any)}>
-                  <TabsList>
-                    <TabsTrigger value="typed" className="gap-2">
-                      <Type className="w-4 h-4" />
-                      Typed
+                  <TabsList className="h-8 sm:h-10">
+                    <TabsTrigger value="typed" className="gap-1 sm:gap-2 text-xs sm:text-sm px-2 sm:px-3">
+                      <Type className="w-3 h-3 sm:w-4 sm:h-4" />
+                      <span className="hidden xs:inline">Typed</span>
                     </TabsTrigger>
-                    <TabsTrigger value="freehand" className="gap-2">
-                      <Pen className="w-4 h-4" />
-                      Freehand
+                    <TabsTrigger value="freehand" className="gap-1 sm:gap-2 text-xs sm:text-sm px-2 sm:px-3">
+                      <Pen className="w-3 h-3 sm:w-4 sm:h-4" />
+                      <span className="hidden xs:inline">Draw</span>
                     </TabsTrigger>
                   </TabsList>
                 </Tabs>
 
-                <Button variant="outline" size="icon" onClick={toggleTheme}>
-                  {theme === 'dark' ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
+                <Button variant="outline" size="icon" onClick={toggleTheme} className="w-8 h-8 sm:w-10 sm:h-10">
+                  {theme === 'dark' ? <Sun className="w-3 h-3 sm:w-4 sm:h-4" /> : <Moon className="w-3 h-3 sm:w-4 sm:h-4" />}
                 </Button>
 
-                <Button variant="outline" size="icon" onClick={reset}>
+                <Button variant="outline" size="icon" onClick={reset} className="hidden sm:flex w-10 h-10">
                   <RotateCcw className="w-4 h-4" />
                 </Button>
 
-                <Button variant="outline" size="icon" onClick={() => setShowHelp(!showHelp)}>
+                <Button variant="outline" size="icon" onClick={() => setShowHelp(!showHelp)} className="hidden md:flex w-10 h-10">
                   <HelpCircle className="w-4 h-4" />
                 </Button>
 
                 <Button 
                   onClick={() => setShowExport(true)} 
-                  className="gap-2"
+                  className="gap-1 sm:gap-2 h-8 sm:h-10 text-xs sm:text-sm px-2 sm:px-4"
                   disabled={mode === 'typed' && !typed.fullName && !typed.initials}
                 >
-                  <Download className="w-4 h-4" />
-                  Export
+                  <Download className="w-3 h-3 sm:w-4 sm:h-4" />
+                  <span className="hidden xs:inline">Export</span>
                 </Button>
               </div>
             </div>
