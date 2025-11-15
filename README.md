@@ -167,6 +167,10 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ---
 
 <p align="center">
+<img src="./public/logo.png" height="150px" width="150px">
+</p>
+
+<p align="center">
   <a href="https://github.com/vinitshahdeo/digital-signature-generator/stargazers">⭐ Star this repo</a> if you find it useful!
 </p>
 <p align="center">
