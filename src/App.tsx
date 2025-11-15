@@ -153,6 +153,17 @@ function App() {
               <div className="glass-effect rounded-2xl p-6 min-h-[500px]">
                 <SignatureCanvas stageRef={stageRef} />
               </div>
+              
+              {/* Disclaimer */}
+              <div className="mt-4 p-3 bg-amber-50 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-800/30 rounded-lg">
+                <p className="text-xs text-amber-800 dark:text-amber-200 flex items-start gap-2">
+                  <span className="text-amber-600 dark:text-amber-400 flex-shrink-0">⚠️</span>
+                  <span>
+                    <strong>Disclaimer:</strong> Signatures created are for personalization only, not legally binding. 
+                    Use certified e-signature services for legal documents.
+                  </span>
+                </p>
+              </div>
             </div>
 
             {/* Right Panel - Presets */}
