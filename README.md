@@ -172,7 +172,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
----
+<br/><br/>
 
 <p align="center">
 <img src="./public/logo.png" height="150px" width="150px">
@@ -185,4 +185,6 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
   <a href="https://github.com/vinitshahdeo?tab=followers">
     <img src="https://img.shields.io/github/followers/vinitshahdeo?label=Follow%20@vinitshahdeo&style=social" alt="GitHub followers">
   </a>
+  <br/>
 </p>
+
