@@ -1,4 +1,8 @@
-![](./public/og-image.png)
+![](./public/logo.png)
+
+<p align="center">
+<img src="./public/logo.png" height="100px" width="100px">
+</p>
 
 <h1 align="center">Digital Signature Generator</h1>
 
@@ -10,7 +14,19 @@
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
 </p>
 
+```javascript
+// That's it — keep it simple
+const workflow = {
+  sign: '✍️',
+  tweak: '🎨', 
+  export: '📥'
+};
+
+Object.values(workflow).join(' → '); // ✍️ → 🎨 → 📥
+```
+
 A modern, production-ready React + TypeScript application for creating beautiful digital signatures with full customization options. Perfect for personalizing documents, emails, and digital artwork.
+
 
 ## ✨ What it does
 
