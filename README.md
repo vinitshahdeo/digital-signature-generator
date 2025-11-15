@@ -40,6 +40,14 @@ Supports Dual Signature Modes:
 - **Typed Signatures**: Type your name and customize with 20+ handwriting fonts
 - **Freehand Drawing**: Draw signatures naturally with pressure-sensitive pen simulation
 
+
+> [!NOTE]
+> If you don't see all 6 presets (Executive, Casual, Elegant, Bold, Minimal, Doctor's Note), run this in your browser console:
+```javascript
+localStorage.removeItem('signature-storage');
+location.reload();
+```
+
 ## 🚀 Getting Started
 
 ### 📋 Prerequisites
