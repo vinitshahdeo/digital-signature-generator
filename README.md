@@ -122,10 +122,46 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ## 🙏 Acknowledgments
 
-- Font families from [Google Fonts](https://fonts.google.com/)
-- UI components from [shadcn/ui](https://ui.shadcn.com/)
-- Icons from [Lucide](https://lucide.dev/)
-- Canvas rendering powered by [Konva](https://konvajs.org/)
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <img src="https://www.gstatic.com/images/branding/product/1x/google_fonts_blue_ios_96dp.png" width="48" height="48" alt="Google Fonts"/>
+      <br />
+      <strong>Google Fonts</strong>
+      <br />
+      <sub>Font families</sub>
+      <br />
+      <a href="https://fonts.google.com/">fonts.google.com</a>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://ui.shadcn.com/apple-touch-icon.png" width="48" height="48" alt="shadcn/ui"/>
+      <br />
+      <strong>shadcn/ui</strong>
+      <br />
+      <sub>UI components</sub>
+      <br />
+      <a href="https://ui.shadcn.com/">ui.shadcn.com</a>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://lucide.dev/logo.dark.svg" width="48" height="48" alt="Lucide"/>
+      <br />
+      <strong>Lucide</strong>
+      <br />
+      <sub>Icon library</sub>
+      <br />
+      <a href="https://lucide.dev/">lucide.dev</a>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://konvajs.org/img/icon.png" width="48" height="48" alt="Konva"/>
+      <br />
+      <strong>Konva.js</strong>
+      <br />
+      <sub>Canvas rendering</sub>
+      <br />
+      <a href="https://konvajs.org/">konvajs.org</a>
+    </td>
+  </tr>
+</table>
 
 ---
 
