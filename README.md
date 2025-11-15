@@ -113,15 +113,13 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 - Icons from [Lucide](https://lucide.dev/)
 - Canvas rendering powered by [Konva](https://konvajs.org/)
 
-## 📧 Contact
-
-**Vinit Shahdeo**
-- GitHub: [@vinitshahdeo](https://github.com/vinitshahdeo)
-- Twitter: [@vinitshahdeo](https://twitter.com/vinit_shahdeo)
-
 ---
 
-<p align="center">Made with ❤️ by <a href="https://github.com/vinitshahdeo">Vinit Shahdeo</a></p>
 <p align="center">
   <a href="https://github.com/vinitshahdeo/digital-signature-generator/stargazers">⭐ Star this repo</a> if you find it useful!
+</p>
+<p align="center">
+  <a href="https://github.com/vinitshahdeo?tab=followers">
+    <img src="https://img.shields.io/github/followers/vinitshahdeo?label=Follow&style=social" alt="GitHub followers">
+  </a>
 </p>
