@@ -180,7 +180,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 <br/><br/>
 
 <p align="center">
-<img src="./public/logo.png" height="150px" width="150px">
+<img src="./public/logo.png" height="90px" width="90px">
 </p>
 
 <p align="center">
