@@ -174,6 +174,9 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
+[![Sponsor Vinit Shahdeo](https://img.shields.io/badge/sponsor-vinitshahdeo-30363D?style=flat&logo=GitHub-Sponsors&logoColor=#EA4AAA)](https://github.com/sponsors/vinitshahdeo)
+
+
 <br/><br/>
 
 <p align="center">
