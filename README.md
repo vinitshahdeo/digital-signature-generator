@@ -26,7 +26,7 @@ Object.values(workflow).join(" → "); // ✍️ → 🎨 → 📥
 
 A modern, production-ready React + TypeScript application for creating beautiful digital signatures with full customization options. Perfect for personalizing documents, emails, and digital artwork.
 
-<a href="https://peerlist.io/vinitshahdeo/project/digital-signature-generator"><img width="30%" height="30%" alt="Digital Signature Generator | Peerlist" src="https://github.com/user-attachments/assets/c2f49665-9500-429d-bd17-a04c166399ea" /></a>
+<a href="https://peerlist.io/vinitshahdeo/project/digital-signature-generator"><img width="25%" height="25%" alt="Digital Signature Generator | Peerlist" src="https://github.com/user-attachments/assets/c2f49665-9500-429d-bd17-a04c166399ea" /></a>
 
 
 ## ✨ What it does
